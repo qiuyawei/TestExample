@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:DotTouchWithHand="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <!--  <Button
+        android:id="@+id/bt_startDownLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击开始下载"/>
+
+
+    <ProgressBar
+        android:id="@+id/processBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:tooltipText=""/>-->
+
+   <!-- <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.wm.example.test.exampletest.view.MySlidingLayout
+            android:id="@+id/slidingLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            &lt;!&ndash;
+                        侧滑布局的根节点下，有且只能有两个子元素,这两个子元素必须是四种基本布局之一,
+                        即LinearLayout, RelativeLayout, FrameLayout或TableLayout。
+                        第一个子元素将做为左侧布局，初始化后被隐藏。第二个子元素将做为右侧布局，
+                        也就是当前Activity的主布局，将主要的数据放在里面。
+                    &ndash;&gt;
+
+            <RelativeLayout
+                android:id="@+id/menu"
+                android:layout_width="300dp"
+                android:layout_height="fill_parent"
+                android:background="#00ccff">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical"
+                    android:background="@android:color/white">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="关于我们"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="版本更新"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="设置"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/colorAccent"
+                android:orientation="vertical">
+
+
+                &lt;!&ndash;<ListView
+                    android:id="@+id/contentList"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+                </ListView>&ndash;&gt;
+
+            </LinearLayout>
+        </com.wm.example.test.exampletest.view.MySlidingLayout>
+        <Button
+            android:id="@+id/bt_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="切换"/>
+    </FrameLayout>-->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/my_vt" />
+
+</LinearLayout>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:myself="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.IndexActivity"
+    tools:ignore="NamespaceTypo">
+
+    <com.wm.example.test.exampletest.view.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        myself:textContent="11111111111111111" />
+
+
+    <Button
+        android:id="@+id/bt_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="value" />
+
+    <LinearLayout
+        android:id="@+id/ll_p1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_p2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_red_dark"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.wm.example.test.exampletest.view.MyView
+        android:id="@+id/myView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp">
+
+
+    </com.wm.example.test.exampletest.view.MyView>
+</LinearLayout>

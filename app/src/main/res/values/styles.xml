@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="StartTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@mipmap/splash_bg</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+    <declare-styleable name="textAttr">
+        <attr name="textColor" format="color"></attr>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textContent" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="circleAtrr">
+        <attr name="circle_radius" format="dimension"></attr>
+        <attr name="circle_color" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="mProcess">
+        <attr name="percent" format="integer"/>
+        <attr name="bg_color" format="color"/>
+        <attr name="percent_color" format="color"/>
+    </declare-styleable>
+</resources>
