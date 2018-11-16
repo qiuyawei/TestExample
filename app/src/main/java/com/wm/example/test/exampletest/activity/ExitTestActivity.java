@@ -79,6 +79,7 @@ public class ExitTestActivity extends BaseActivity implements BlankFragment1.OnF
 
     @Override
     public void innitData() {
+//        这是新的提交，并且本地分支是AJAX 远程分支second
         fragments.add(new BlankFragment1());
         fragments.add(new BlankFragment2());
         for(int i=0;i<fragments.size();i++){
